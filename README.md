@@ -7,4 +7,4 @@ _Recalibration of protein interactions in Martini 3_
 
 Simulation data is available at: https://doi.org/10.5281/zenodo.8010043
 
-Force field files for Martini 3.0 with interactions between protein beads rescaled by λPP=0.88 is available at: https://github.com/KULL-Centre/_2023_Thomasen_Martini/tree/main/force_field/martini_v300_pps
+Force field files for Martini 3.0 with interactions between protein beads rescaled by λPP=0.88 are available at: https://github.com/KULL-Centre/_2023_Thomasen_Martini/tree/main/force_field/martini_v300_pps
