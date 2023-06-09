@@ -1,4 +1,6 @@
+**If you are simply looking for Martini 3.0 with protein interactions rescaled by λ<sub>PP</sub>=0.88, you can find the ready-to-use force field files here:** https://github.com/KULL-Centre/_2023_Thomasen_Martini/tree/main/force_field
+
 [martini_v300_modified_protein_ff](https://github.com/KULL-Centre/_2023_Thomasen_Martini/tree/main/rescaling_files_and_scripts/martini_v300_modified_protein_ff) contains modified Gromacs force field files for Martini v3.0.0, in which we have added protein-specific beads that are named by amino acid and protein backbone or side-chain, allowing for rescaling of interactions specifically for proteins, particular amino-acids, backbone or side-chain beads.
 This force field was used as the starting point for rescaling interactions using the script _rescaling_PW_and_PP_martini3_v2.py_. **Note that the interactions have NOT been modified in this version of the force field.**
 
-**If you are simply looking for Martini 3.0 with protein interactions rescaled by λ<sub>PP</sub>=0.88, you can find the ready-to-use force field files here:** https://github.com/KULL-Centre/_2023_Thomasen_Martini/tree/main/force_field
+Note that the "modifications" files have not been updated, so bead types need to be altered after coarse-graining if you have e.g. modification of protein termini to charged Q5 beads. _Changing_protein_beadtype_names_in_the_molecule_0_itp_file_v1.py_ can be used for this.
