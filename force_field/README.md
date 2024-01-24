@@ -4,6 +4,6 @@
 
 In order to rescale the interactions between protein beads only (and not e.g. the interactions with lipids), we have modified the original Martini 3.0.0 force field files by adding a new set of protein bead types (all with the suffix _PRO)
 
-You can download a tar of the PPS force field files here: https://github.com/KULL-Centre/_2023_Thomasen_Martini/blob/main/force_field/martini_v300_pps.tar.gz
+You can download a tar of the PPS (λ<sub>PP</sub>=0.88) force field files here: https://github.com/KULL-Centre/_2023_Thomasen_Martini/blob/main/force_field/martini_v300_pps.tar.gz
 
-or the PWS force field files here: https://github.com/KULL-Centre/_2023_Thomasen_Martini/blob/main/force_field/martini_v300_pws.tar.gz
+or the PWS (λ<sub>PW</sub>=1.10) force field files here: https://github.com/KULL-Centre/_2023_Thomasen_Martini/blob/main/force_field/martini_v300_pws.tar.gz
