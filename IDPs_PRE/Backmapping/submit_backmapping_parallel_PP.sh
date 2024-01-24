@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for protein in A2 aSyn FUS
+for protein in A2 aSyn FUS htau40 OPN
 do 
 
 cd ${protein}
