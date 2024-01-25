@@ -1,0 +1,37 @@
+;define                   = -DPOSRES
+integrator               = md
+dt                       = 0.02 
+nsteps                   = 2500000
+nstxout                  = 0 
+nstvout                  = 0
+nstfout                  = 0
+nstlog                   = 1000 
+nstxout-compressed       = 1000
+compressed-x-precision   = 100
+
+cutoff-scheme            = Verlet
+nstlist                  = 20
+ns_type                  = grid
+pbc                      = xyz
+verlet-buffer-tolerance  = 0.005
+
+coulombtype              = reaction-field 
+rcoulomb                 = 1.1
+epsilon_r                = 15    ; 2.5 (with polarizable water)
+epsilon_rf               = 0
+vdw_type                 = cutoff  
+vdw-modifier             = Potential-shift-verlet
+rvdw                     = 1.1
+
+tcoupl                   = v-rescale 
+tc-grps                  = Protein DLPC SOL_ION 
+tau-t                    = 1.0 1.0 1.0
+ref-t                    = 303 303 303
+gen-vel                  = yes
+gen-temp                 = 303
+Pcoupl                   = berendsen 
+Pcoupltype               = isotropic
+tau-p                    = 4.0
+compressibility          = 4.5e-5
+ref-p                    = 1.0
+refcoord-scaling         = com

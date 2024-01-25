@@ -1,0 +1,25 @@
+#define GO_VIRT
+#include "martini_v3.0.0.itp"
+#include "2M0B_cg-go1.itp"
+#ifdef POSRES
+#include "posre1.itp"
+#endif
+#include "2M0B_cg-go2.itp"
+#ifdef POSRES
+#include "posre2.itp"
+#endif
+#include "martini_v3.0.0_phospholipids_v1.itp"
+#include "martini_v3.0.0_solvents_v1.itp"
+#include "martini_v3.0.0_ions_v1.itp"
+
+[ system ]
+ERBB MARTINI v3.0.4 go models lipids v2
+
+[ molecules ]
+PROA 1
+PROB 1
+DLPC 400
+W 5000
+NA 180
+CL 192
+

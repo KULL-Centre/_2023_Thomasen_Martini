@@ -1,0 +1,19 @@
+#include "/media/ashutosh/BC469B9F469B594A1/Projects/Martini_v300_ff/Revised_Martini_force_fields/martini_v300_Modified_protein_force_field_with_revised_PP_interactions_scaled_by_a_factor_0.88/martini_v3.0.0.itp"
+#include "/media/ashutosh/BC469B9F469B594A1/Projects/Martini_v300_ff/Revised_Martini_force_fields/martini_v300_Modified_protein_force_field_with_revised_PP_interactions_scaled_by_a_factor_0.88/martini_v3.0.0_phospholipids_v1.itp"
+#include "/media/ashutosh/BC469B9F469B594A1/Projects/Martini_v300_ff/Revised_Martini_force_fields/martini_v300_Modified_protein_force_field_with_revised_PP_interactions_scaled_by_a_factor_0.88/martini_v3.0.0_solvents_v1.itp"
+#include "/media/ashutosh/BC469B9F469B594A1/Projects/Martini_v300_ff/Revised_Martini_force_fields/martini_v300_Modified_protein_force_field_with_revised_PP_interactions_scaled_by_a_factor_0.88/martini_v3.0.0_ions_v1.itp"
+#include "top/epha1_proa.itp"
+#include "top/epha1_prob.itp"
+
+[ system ]
+; name
+Martini system
+
+[ molecules ]
+; name        number
+PROA 1
+PROB 1
+DLPC 400
+W 6052
+NA 74
+CL 80
