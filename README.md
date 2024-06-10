@@ -1,4 +1,4 @@
-## Supporting scripts and data for _Recalibration of protein interactions in Martini 3_
+## Supporting scripts and data for _Rescaling protein-protein interactions improves Martini 3 for flexible proteins in solution_
 
 **F. Emil Thomasen, Tórur Skaalum, Ashutosh Kumar, Sriraksha Srinivasan, Stefano Vanni, Kresten Lindorff-Larsen** 
 
