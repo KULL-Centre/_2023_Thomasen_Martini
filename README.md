@@ -1,7 +1,7 @@
-## Supporting scripts and data for
+## Supporting scripts and data for _Recalibration of protein interactions in Martini 3_
 
 **F. Emil Thomasen, Tórur Skaalum, Ashutosh Kumar, Sriraksha Srinivasan, Stefano Vanni, Kresten Lindorff-Larsen** 
-_Recalibration of protein interactions in Martini 3_
+
 
 The preprint is available at: <https://doi.org/10.1101/2023.05.29.542689>
 
