@@ -4,7 +4,7 @@
 
 In order to rescale the interactions between protein beads only (and not e.g. the interactions with lipids), we have modified the original Martini 3.0.0 force field files by adding a new set of protein bead types (all with the suffix _PRO). 
 
-**IMPORTANT: This means that you must generate your protein .itp files using our modified force field files (e.g. using martinize2), so the protein bead types are correctly assigned as _PRO beads.**
+**IMPORTANT: This means that you must generate your protein .itp files using our modified force field files (e.g. using martinize2), so the protein bead types are correctly assigned as _PRO beads.** After generating the files, you can check that the beads of your protein are correctly assigned under the [ atoms ] header.
 
 You can download a tar of the PPS (λ<sub>PP</sub>=0.88) force field files here: https://github.com/KULL-Centre/_2023_Thomasen_Martini/blob/main/force_field/martini_v300_pps.tar.gz
 
