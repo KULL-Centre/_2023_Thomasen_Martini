@@ -63,7 +63,7 @@ cd $dir
 #$gmx editconf -f min_AA.gro -o $pdb 
 
 #Martinize
-$python $martinize -f $pdb -o PRO_topol.top -x PRO_CG.pdb -ff $FF -cys auto -nt -scfix -ff-dir $ffdir/martini_v3.0.0_proteins/force_fields/ -map-dir $ffdir/martini_v3.0.0_proteins/mappings/ 
+$python $martinize -f $pdb -o PRO_topol.top -x PRO_CG.pdb -ff $FF -cys auto -nt -ff-dir $ffdir/martini_v3.0.0_proteins/force_fields/ -map-dir $ffdir/martini_v3.0.0_proteins/mappings/ 
 
 #Put protein in box
 $gmx editconf -f PRO_CG.pdb -o PRO_CG.gro -bt dodecahedron -d 0.5 <<EOF
