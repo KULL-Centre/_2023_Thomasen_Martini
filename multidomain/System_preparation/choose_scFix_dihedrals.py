@@ -20,7 +20,8 @@ protein_domain_bounds = {'TIA1':[10, 187, 214, 400, 444, 645],
         'mTurq_GS16_mNeon':[1, 534, 643, 1171],
         'mTurq_GS24_mNeon':[1, 534, 667, 1195],
         'mTurq_GS32_mNeon':[1, 534, 691, 1219],
-        'mTurq_GS48_mNeon':[1, 534, 739, 1267]
+        'mTurq_GS48_mNeon':[1, 534, 739, 1267],
+        'C5_C6_C7':[14, 289, 306, 486, 528, 733]
        }
 
 start_stop_atoms = protein_domain_bounds[protein]
