@@ -24,7 +24,7 @@ protein_domain_bounds = {'TIA1':[10, 187, 214, 400, 444, 645],
        }
 
 start_stop_atoms = protein_domain_bounds[protein]
-nr_domains = len(start_stop_atoms)/2
+nr_domains = int(len(start_stop_atoms)/2)
 
 with open(topfile, 'r') as f:
     toplines = f.readlines()
