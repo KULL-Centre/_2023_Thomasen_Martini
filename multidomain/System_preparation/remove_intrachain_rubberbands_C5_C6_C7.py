@@ -7,7 +7,6 @@ outfile = 'dihedrals_rubberbands_all_PRO.top'
 #List of start and stop atoms of domain borders
 #Given in the form [chain 1 start-atom, chain 1 stop-atom, chain 2 start-atom, chain 2 stop-atom]
 start_stop_atoms = [110,191]
-nr_chains = len(start_stop_atoms)/2
 
 #Make list of atoms to remove
 list_atoms = list(range(start_stop_atoms[0],start_stop_atoms[1]+1))
